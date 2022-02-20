@@ -123,4 +123,16 @@ body {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
+
+@media screen and (max-width: 768px) {
+  .form-container form {
+    width: 80vw;
+  }
+  .form-container .form-field input {
+    width: auto;
+  }
+  .form-container .form-field textarea {
+    width: auto;
+  }
+}
 /*# sourceMappingURL=feedback.css.map */
