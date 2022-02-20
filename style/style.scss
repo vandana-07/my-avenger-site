@@ -7,17 +7,18 @@
 }
 
 body {
-    background-color: #252525;
-    // overflow: hidden;
-}
-
-.cont {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(270deg,rgba(66, 66, 66, 0.644) 0,rgba(46, 46, 46, 0.774) 100%), url(../src/images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
+    // overflow: hidden;
+}
+
+.cont {
+    
+    // background-color: #252525;
     // width: 100vw;
 }
 
@@ -63,7 +64,7 @@ body {
     }
 
     .content {
-        // padding: 4rem 0;
+        padding: 4rem 0;
         .header {
             backdrop-filter: blur(16px) saturate(180%);
             -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -330,7 +331,7 @@ body {
             }
         }
         .footer {
-            // margin: 2rem 0;
+            // margin-bottom: 2rem;
             backdrop-filter: blur(16px) saturate(180%);
             -webkit-backdrop-filter: blur(16px) saturate(180%);
             background-color: rgba(201, 201, 201, 0.26);
