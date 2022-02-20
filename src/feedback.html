@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Write a message</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avengers | Feedback</title>
+  <link rel="stylesheet" href="../style/feedback.css">
+</head>
+<body>
+  <div class="form-container">
     <form class="" action="mailto:aroravandana234@gmail.com" method="post" enctype="text/plain">
-      <label>Your Name</label>
-      <input type="text" name="YourName" value=""><br>
-      <label>Your Email id</label>
-      <input type="email" name="YourEmail" value=""><br>
-      <label>Date of Birth</label>
-      <input type="date" name="DateOfBirth" value=""><br>
-      <label>Your feedback</label>
-      <textarea name="Feedback" rows="10" cols="30"></textarea>
-      <input type="submit" name="" value=""><br>
-      <hr>
-      <label>Are you interested in getting updates from us?</label>
-      <input type="radio" name="" value=""><br>
+      <div class="form-field">
+        <label>Your Name</label>
+        <input type="text" name="YourName" value="" placeholder="Name">
+      </div>
+      <div class="form-field">
+        <label>Your Email id</label>
+        <input type="email" name="YourEmail" value="" placeholder="Email Id">
+      </div>
+      <div class="form-field">
+        <label>Date of Birth</label>
+        <input type="date" name="DateOfBirth" value="">
+      </div>
+      <div class="form-field">
+        <label>Your feedback</label>
+      <textarea name="Feedback" placeholder="Write here..."></textarea>
+      </div>
+      <input type="submit" name="" value="Send">
+      <!-- <label>Are you interested in getting updates from us?</label>
+      <input type="radio" name="" value=""><br> -->
     </form>
-
-
-  </body>
+  </div>
+</body>
 </html>
